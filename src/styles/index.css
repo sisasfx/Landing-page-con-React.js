@@ -1,15 +1,4 @@
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
 .container-fluid{
     width: 100%;
 }
@@ -26,6 +15,9 @@ ul{
     margin-right: 1em;
     cursor: pointer;
 }
+.btn-dark{
+    border: 1px solid grey;
+}
 .card-group{
     margin-top: 2em;
     margin-bottom: 2em;
@@ -37,6 +29,24 @@ ul{
     padding: 2em;
 }
 
-/*RESPONSIVE NAVBAR*/
+/*RESPONSIVE NAVBAR --> si usar important??? How the Fuck I do it?*/
+.dropdown{
+    margin-right: 15%;
+}
+#active{
+    display: none !important;
+}
+
+@media (max-width: 650px) {
+   #unActive{
+    display: none !important;
+   }
+   .jumbotron{
+    display: none;
+   }
+    #active{
+    display: flex !important;
+   }
+  }
 
 
