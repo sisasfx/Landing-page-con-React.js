@@ -1,8 +1,10 @@
 import React from "react";
 
+let activeResponsive = false;
+
 const NavBar = () => {
-    return(
-        <nav className=".navbar-nav bg-dark d-flex justify-content-between">
+  return (
+    <nav className="navbar bg-dark d-flex justify-content-between">
             <h4 className="navbar-brand text-light d-flex align-items-center">Start Bootstrap</h4>
             <ul className="navbar-nav flex-row">
                 <li className="nav-item text-light">Home</li>
@@ -11,7 +13,7 @@ const NavBar = () => {
                 <li className="nav-item text-light">Contact</li>
             </ul>
         </nav>
-    );
+  );
 };
 
 export default NavBar;
