@@ -10,6 +10,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container-fluid{
+    width: 100%;
+}
 .navbar-nav{
     padding: 1em;
 }
@@ -23,8 +26,9 @@ ul{
     margin-right: 1em;
     cursor: pointer;
 }
-.container{
-    height: 800px;
+.card-group{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .card{
     margin: 1em;
