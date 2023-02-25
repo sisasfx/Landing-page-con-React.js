@@ -10,3 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.navbar-nav{
+    padding: 1em;
+}
+.navbar-brand{
+    margin-left: 15%;
+}
+ul{
+    margin-right: 15%;
+}
+.nav-item{
+    margin-right: 1em;
+    cursor: pointer;
+}
+.container{
+    height: 800px;
+}
+.card{
+    margin: 1em;
+}
+#footer{
+    padding: 2em;
+}
