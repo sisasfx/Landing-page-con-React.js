@@ -27,32 +27,17 @@ const NavBar = () => {
         <h4 className="navbar-brand text-light d-flex align-items-center">
           Start Bootstrap
         </h4>
-        <div class="dropdown">
-          <button
-            class="btn btn-dark dropdown-toggle"
-            type="button"
-            id="dropdownMenu2"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <FontAwesomeIcon icon={faBars}/>
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <button class="dropdown-item" type="button">
-                Home
-            </button>
-            <button class="dropdown-item" type="button">
-              About
-            </button>
-            <button class="dropdown-item" type="button">
-              Services
-            </button>
-            <button class="dropdown-item" type="button">
-              Contact
-            </button>
-          </div>
-        </div>
+        <button className="nav-item dropdown bg-dark">
+            <span className="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button">
+                <FontAwesomeIcon icon={faBars}/>
+            </span>
+            <ul className="dropdown-menu">
+                <li className="dropdown-item">Home</li>    
+                <li className="dropdown-item">About</li>
+                <li className="dropdown-item">Services</li>
+                <li className="dropdown-item">Contact</li>
+            </ul>            
+        </button>
       </nav>
     </div>
   );
